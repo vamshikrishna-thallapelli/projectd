@@ -1,0 +1,169 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Zomato</title> 
+    <script src="https://kit.fontawesome.com/7ac2cc92d0.js" crossorigin="anonymous"></script>
+       
+    <link rel="stylesheet" href="style-2page.css"> 
+</head>
+ <body>
+    <!-- <header></header> -->
+    <nav class="nav-bar">
+        <ul>
+            <li>
+                <a href="home">Home</a></li>
+               <li> <a href="meal plans">meal plans</a></li>
+        </ul>
+    </nav>
+    <h1 style="    font-family: Poppins;">Breakfast Places in Mumbai</h1>
+<div class="outer-container">
+   <div class="filter-main-container">
+          <div class="location-filter">
+            <b>filters</b>
+            <br>
+            <br>
+            <label>enter your location :</label>
+            <br>
+            <br>
+            <select name="select locations">
+            <option value=""selected disabled>  select location</option>
+            <option value="b">bangalore</option>
+            <option value="m">mumbai</option>
+            <option value="h">hyderabad</option>
+            <option value="k">kochi</option>
+            <option value="r">roorke</option>
+            <option value="d">delhi</option>
+            <option value="g">goa</option>
+            </select>
+           </div>
+    
+       <div class="cusines-filter">
+               <div class="cusine-item"><b style="    font-family: Poppins;">cusines</b></div>
+               <div class="cusine-item">
+             
+
+                    <input type="checkbox" >
+                    <label style="    font-family: Poppins;">south indian</label>
+               </div>
+               
+                <div class="cusine-item2">
+                    <input type="checkbox" value="">
+                    <label style="    font-family: Poppins;">north indian</label>
+                </div>
+               
+                <div class="cusine-item">
+                    <input type="checkbox" value="">
+                    <label style="    font-family: Poppins;" >chinese</label>
+                </div>
+               
+                <div class="cusine-item">
+                    <input type="checkbox" value="">
+                    <label style="    font-family: Poppins;">fast food</label>
+                </div>
+              
+                <div class="cusine-item">
+                    <input type="checkbox" value="">
+                    <label style="    font-family: Poppins;">street food</label>
+                </div>
+               
+       </div>
+            <div class="cost-container">
+              <div class="cost-item"> <b style="    font-family: Poppins;">cost for 2 :</b></div>
+              <div class="cost-item">
+              <div><input type="radio" > <label style="    font-family: Poppins;">: less than 500</label></div>
+              <div> <input type="radio" ><label style="    font-family: Poppins;"> : 500 to 1000</label></div>
+              <div><input type="radio" ><label style="    font-family: Poppins;"> : 1000 to 1500</label></div>
+              <div><input type="radio" > <label style="    font-family: Poppins;"> : 1500 to 2000</label></div>
+              <div><input type="radio" > <label style="    font-family: Poppins;">: 2000+</label></div>
+              <br>
+              <br>
+            </div>
+              
+            </div> 
+
+            <div class="sort-container">
+                  <div><b>SORT</b></div>
+                    <div><input type="radio" ><label>:price low to high</label></div>
+                    <!-- <input type="radio" value=":price low to high"> -->
+                 <div><input type="radio" ><label>:price high to low</label></div>
+                    <!-- <input type="radio" value=":"> -->
+
+            </div>
+     </div>
+<div class="food-main-container">
+        
+       
+      <div class="cakerr-item">
+        <div class="cakerr-block1">
+            <div class="caker-item1">
+                <img src="images/bakery.png">
+              </div>
+              <div class="caker-item2">
+              <h2>The Big Chill Cakery</h2>
+              <p1>FORT</p1><br>
+              <p2>Shop 1, Plot D, Samruddhi Complex, Chincholi …</p2>
+              </div>
+           </div>
+        <div class="caker-block2">
+            <hr>
+            <br>
+            <table>
+            <tr>
+            <td><b>cusines      :</b></td>
+            <td>    bakery</td>
+            </tr>
+            <tr>
+                <td><b>cost for 2 :</b></td>
+                <td>  700</td>
+            
+            </tr>
+            </table>
+        </div>
+            
+       
+      </div>
+
+
+        <section class="baker-item">
+             <div class="baker-block1">
+                   <div class="baker-item1">
+                    <img src="images/bakery.png">
+                    </div>
+                   <div class="baker-item2">
+                   <h2>The Bake Shop</h2>
+                   <p1>FORT</p1><br>
+                   <p2>Shop 1, Plot D, Samruddhi Complex, Chincholi …</p2>
+                   </div>
+            </div>
+        <div class="baker-block2">
+            <hr style="color:rgb(7, 26, 7)">
+            <br>
+           <table>
+           <tr>
+           <td><b>cusines    :</b></td>
+           <td>    bakery</td>
+           </tr>
+           <tr>
+            <td><b>cost for 2 :</b></td>
+            <td>  700</td>
+        
+           </tr>
+           </table>
+         </div>
+    </section>
+        
+   
+  </div>
+</div>
+</div>
+
+
+
+  
+
+
+ </body>   
+</head> 
